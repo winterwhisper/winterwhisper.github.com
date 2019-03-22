@@ -8,11 +8,11 @@ tags: javascript, react
 
 {% assign special = "{{ width: '40%' }}" %}
 
-```jsx
-  <span style={{ special }}>
-    <a href={item.url}>{item.title}</a>
-  </span>
-```
+  ```jsx
+   <span style={{ special }}>
+     <a href={item.url}>{item.title}</a>
+   </span>
+  ```
 
 * `ReactDOM.render()`会使用JSX来替换HTML中的一个DOM节点，有两个传入参数，第一个是准备渲染的JSX，第二个参数指定了React应用在HTML中的放置的位置
 
