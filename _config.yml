@@ -27,5 +27,5 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "default"
+      layout: "post"
       permalink: "/:categories/:year-:month-:day-:title.html"
