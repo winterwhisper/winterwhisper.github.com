@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>水奶使用说明</title>
+  <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?5febb1dc0eb5e03520307ca56643aaf1";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body>
+  <h1>水奶使用说明</h1>
+  <p>1. 用物准备：大小两个容器、婴儿勺</p>
+  <img src="img/bg.png" data-aload="img/shuinai/1.jpeg" alt="收据" data-jslghtbx="img/shuinai/1.jpeg">
+  <p>2. 水奶使用前摇匀</p>
+  <img src="img/bg.png" data-aload="img/shuinai/5.jpeg" alt="出院证明" data-jslghtbx="img/shuinai/5.jpeg">
+  <p>3. 将水奶倒入容器中</p>
+  <img src="img/bg.png" data-aload="img/shuinai/3.jpeg" alt="一卡通" data-jslghtbx="img/shuinai/3.jpeg">
+  <p>4. 隔水加热，水温不超过40℃</p>
+  <img src="img/bg.png" data-aload="img/shuinai/4.jpeg" alt="出生医学证明须知/出生证明委托书" data-jslghtbx="img/shuinai/4.jpeg">
+  <p>5. 用小勺喂</p>
+  <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="js/lightbox.min.js"></script>
+  <script>
+    function aload(t){"use strict";var e="data-aload";return t=t||window.document.querySelectorAll("["+e+"]"),void 0===t.length&&(t=[t]),[].forEach.call(t,function(t){t["LINK"!==t.tagName?"src":"href"]=t.getAttribute(e),t.removeAttribute(e)}),t}
+  </script>
+  <script>
+    var lightbox = new Lightbox();
+    lightbox.load({ maxImgSize: 0.9 });
+
+    var app = {
+      asyncLoadImages: function(){
+        var images = document.querySelectorAll('img');
+        var scrollHeight = document.body.scrollTop || document.documentElement.scrollTop;
+        for (var index = 0; index < images.length; index++) {
+          var image = images[index];
+          if (image.getAttribute('src').indexOf("bg.png") >= 0 && image.offsetTop - document.documentElement.clientHeight < scrollHeight) {
+            aload(image);
+          }
+        }
+      }
+    }
+
+    window.onscroll = app.asyncLoadImages;
+    app.asyncLoadImages();
+  </script>
+  <script src="https://open.mobile.qq.com/sdk/qqapi.js"></script>
+  <script src="https://winterwhisper.github.io/jnfy/js/jump.js"></script>
+</body>
+</html>

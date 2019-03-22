@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>出院办理温馨提示</title>
+  <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?5febb1dc0eb5e03520307ca56643aaf1";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body>
+  <h1>出院办理温馨提示</h1>
+  <p>1. 结账带上红色缴费收据和出院证明，在负一楼办理，周末及节假日在一楼办理</p>
+  <img src="img/bg.png" data-aload="img/1.jpeg" alt="收据" data-jslghtbx="img/1.jpeg">
+  <p class="hint">收据</p>
+  <p>2. 出院证明一式两份，结账时带上需盖章才有效</p>
+  <img src="img/bg.png" data-aload="img/4.jpeg" alt="出院证明" data-jslghtbx="img/4.jpeg">
+  <p class="hint">出院证明</p>
+  <p>3. 一卡通、新生儿疾病筛查卡办理新生儿出生证明时必带</p>
+  <img src="img/bg.png" data-aload="img/2.jpeg" alt="一卡通" data-jslghtbx="img/2.jpeg">
+  <p class="hint">一卡通</p>
+  <img src="img/bg.png" data-aload="img/3.jpeg" alt="新生儿疾病筛查卡" data-jslghtbx="img/3.jpeg">
+  <p class="hint">新生儿疾病筛查卡</p>
+  <p>4.</p>
+  <div class="sub-list">
+    <p>1) 办理新生儿出生证明要求带的证件及时间详见出生医学证明须知</p>
+    <p>2) 周四及节假日不能办理，在负一楼办理</p>
+    <p>3) 办理人必须是新生儿父母亲，若是父亲前来，母亲需填出生证明委托书带来；若是母亲前来，则不用填</p>
+  </div>
+  <img src="img/bg.png" data-aload="img/6.jpeg" alt="出生医学证明须知/出生证明委托书" data-jslghtbx="img/6.jpeg">
+  <p class="hint">出生医学证明须知/出生证明委托书</p>
+  <p>5. 新生儿满月接种疫苗需带乙肝疫苗和卡介苗接种单到正规医院</p>
+  <img src="img/bg.png" data-aload="img/5.jpeg" alt="乙肝疫苗和卡介苗接种单" data-jslghtbx="img/5.jpeg">
+  <p class="hint">乙肝疫苗和卡介苗接种单</p>
+  <p>6. 住院病历复印委托书是报账需要复印病历才前来，带的证件及时间具体详见住院病历复印委托书，出院半月后在8楼档案室办理，若是父亲前来，母亲需填住院病历复印委托书，办理需到8楼档案室提前预约</p>
+  <img src="img/bg.png" data-aload="img/7.jpeg" alt="住院病历复印委托书" data-jslghtbx="img/7.jpeg">
+  <p class="hint">住院病历复印委托书</p>
+  <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="js/lightbox.min.js"></script>
+  <script>
+    function aload(t){"use strict";var e="data-aload";return t=t||window.document.querySelectorAll("["+e+"]"),void 0===t.length&&(t=[t]),[].forEach.call(t,function(t){t["LINK"!==t.tagName?"src":"href"]=t.getAttribute(e),t.removeAttribute(e)}),t}
+  </script>
+  <script>
+    var lightbox = new Lightbox();
+    lightbox.load({ maxImgSize: 0.9 });
+
+    var app = {
+      asyncLoadImages: function(){
+        var images = document.querySelectorAll('img');
+        var scrollHeight = document.body.scrollTop || document.documentElement.scrollTop;
+        for (var index = 0; index < images.length; index++) {
+          var image = images[index];
+          if (image.getAttribute('src').indexOf("bg.png") >= 0 && image.offsetTop - document.documentElement.clientHeight < scrollHeight) {
+            aload(image);
+          }
+        }
+      }
+    }
+
+    window.onscroll = app.asyncLoadImages;
+    app.asyncLoadImages();
+  </script>
+  <script src="https://open.mobile.qq.com/sdk/qqapi.js"></script>
+  <script src="https://winterwhisper.github.io/jnfy/js/jump.js"></script>
+</body>
+</html>

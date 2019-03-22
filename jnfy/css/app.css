@@ -1,0 +1,39 @@
+body {
+  padding: 0 20px 20px;
+}
+h1 {
+  text-align: center;
+}
+p {
+  font-size: 0.95rem;
+  line-height: 1.6rem;
+}
+ul {
+  padding-left: 10px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #337AB7;
+  font-weight: bolder;
+  border-bottom: 1px solid #4F9FCF;
+}
+.hint {
+  font-size: 0.8rem;
+  color: #777;
+  text-align: center;
+  margin: 0;
+}
+.sub-list {
+  padding-left: 20px;
+  margin-top: -40px;
+}
+img {
+  min-height: 100px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid #000 !important;
+  padding: 4px;
+}
