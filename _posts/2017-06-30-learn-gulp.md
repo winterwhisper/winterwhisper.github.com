@@ -4,8 +4,6 @@ categories: programming
 tags: javascript,gulp
 ---
 
-# Gulp学习笔记
-
 ### 创建标准任务
 
 利用`task`方法建立task，形如

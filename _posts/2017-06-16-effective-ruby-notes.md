@@ -4,8 +4,6 @@ categories: programming
 tags: Ruby
 ---
 
-# 《Effective Ruby》读书笔记
-
 * 在比较语句中应将`true`/`false`放在运算符的左边，保证调用的是`TrueClass#==`/`FalseClass#==`。若放在右边的话，调用的是比较的对象的方法，很可能其方法是被覆写过的。
 
   ```ruby

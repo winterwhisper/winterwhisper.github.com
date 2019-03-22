@@ -4,8 +4,6 @@ categories: programming
 tags: javascript, react
 ---
 
-# 《The Road To Learn React》读书笔记
-
 * JSX中若需给组件传递内联样式，则需传递一个对象，且由于引入变量需花括号，则可能会存在两个花括号
 
 {% assign special = "{{ width: '40%' }}" %}

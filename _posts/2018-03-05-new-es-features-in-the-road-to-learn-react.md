@@ -4,8 +4,6 @@ categories: programming
 tags: javascript, react
 ---
 
-# 《The Road To Learn React》中的ECMAScript新特性
-
 #### [`const`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/const)/[`let`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let)
 
 用`const`定义常量，`let`定义变量

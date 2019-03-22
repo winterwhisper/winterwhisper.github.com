@@ -4,8 +4,6 @@ categories: programming
 tags: Ruby
 ---
 
-# Ruby内存分配与碎片
-
 ## Ruby内存分配
 
 Ruby中的内存分配涉及三层，从高级到低级排序：
