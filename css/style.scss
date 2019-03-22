@@ -297,28 +297,23 @@ pre {
   letter-spacing: 2px;
   text-indent: 2px;
 }
-.postContent {
-  padding-top: 3.5em;
-  text-align: center;
-}
 .postDate {
   float: left;
-  text-transform: uppercase;
   font-family: "Source Sans Pro";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
+  text-transform: uppercase;
   letter-spacing: 2px;
-  text-indent: 2px;
 }
 .postTag {
   float: right;
 }
 .postTitle {
   font-weight: 400;
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-indent: 3px;
+  font-size: 1.6em;
+  padding: 0.3em 0;
 }
 /**
  * Site header
@@ -355,7 +350,7 @@ pre {
   text-indent: 6px;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  padding-top: 5em;
+  padding: 2em 0;
 }
 .page-title {
   text-transform: uppercase;
