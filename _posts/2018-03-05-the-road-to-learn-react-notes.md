@@ -8,11 +8,13 @@ tags: javascript, react
 
 * JSX中若需给组件传递内联样式，则需传递一个对象，且由于引入变量需花括号，则可能会存在两个花括号
 
-  ```jsx
-  <span style={{ width: '40%' }}>
+{% assign special = "{{ width: '40%' }}" %}
+
+```jsx
+  <span style={{ special }}>
     <a href={item.url}>{item.title}</a>
   </span>
-  ```
+```
 
 * `ReactDOM.render()`会使用JSX来替换HTML中的一个DOM节点，有两个传入参数，第一个是准备渲染的JSX，第二个参数指定了React应用在HTML中的放置的位置
 
