@@ -127,7 +127,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bolder;
+    font-weight: $base-font-weight;
 }
 
 
@@ -257,8 +257,8 @@ body.light code {
 
 .post {
   font-family: "Source Sans Pro";
-  font-size: 18px;
-  font-weight: 300;
+  // font-size: 18px;
+  font-weight: 400;
   padding-top: 0;
 }
 .home{
@@ -517,7 +517,7 @@ body.light code {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
+  font-size: 56px;
 
   text-align: center;
   font-family: "PT Sans";
@@ -530,7 +530,7 @@ body.light code {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    // font-size: 1.5rem;
   }
   h2 {
     font-size: 32px;
