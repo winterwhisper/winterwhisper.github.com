@@ -10,7 +10,7 @@ title: 编程人生
 email: winterwhisper.dev@gmail.com
 description: 记录编程，记录人生。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://winterwhisper.github.io/" # the base hostname & protocol for your site
+url: "https://winterwhisper.github.io" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  
 paginate: 10
